@@ -1,0 +1,77 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    width: 60px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+.button1 {    
+	height:50px;
+    width:200px;
+    border: 2px solid #000000;
+}
+
+h1 {
+	text-align: right;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+img {
+	width: 5.5%;
+	
+}
+
+
+
+/*bagian sidebar*/
+.sidebar{
+	background: #dddddd;
+	float: left;	
+	width: 25%;
+	height: 200%;
+}
+ 
+/*akhir sidebar*/
+ 
+.container{
+	background: white;
+	float: left;
+	height: 100%;
+	width: 75%;	
+}
+ 
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+}
+.sidebar ul{
+	background-color:#dddddd;
+}
+.sidebar ul li{
+      border:1px solid #000000;
+	  margin:10px;
+   }
